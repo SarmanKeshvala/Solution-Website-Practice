@@ -87,24 +87,24 @@ body {
     padding-right: 80px;
 }
 
-.hero-text h1 {
+.heading {
     margin-top: 80px;
     font-weight: 300;
     font-size: 48px;
     font-family: 'Lato', sans-serif;
 }
 
-.hero-text h1 span {
+.heading span {
     font-weight: 500;
 }
 
-.hero-text p {
+.para {
     margin-top: 30px;
     color: #666666;
     margin-bottom: 30px;
 }
 
-.hero-text a {
+.button, .button:hover, .button:visited {
     color: #fff;
     padding: 10px 30px;
     background: -webkit-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
@@ -123,4 +123,15 @@ body {
 
 .hero-section {
     background: transparent;
+}
+
+.services {
+    margin-top: 80px;
+}
+
+.box img{
+    box-sizing: border-box;
+    width: 100%;
+    border-top-left-radius: 200px;
+    clip-path: polygon(0 0, 100% 16%, 88% 100%, 5% 100%);
 }
